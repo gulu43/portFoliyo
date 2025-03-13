@@ -1,0 +1,374 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* --------------------for leptop ------------------*/
+@media screen and (min-width:1024px) {
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+    }
+
+    #center_div {
+        min-width: 768px;
+        height: 100%;
+        margin-top: 20px;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+
+    /* top nav */
+    #tool_bar_section {
+        width: 100%;
+        height: 80px;
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+        padding: 10px 5%;
+    }
+
+    .tool_bar {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .tool_mid_div {
+        width: 45%;
+        height: 100%;
+    }
+
+    .nac_link {
+        font-weight: bold;
+    }
+
+    #resume_download {
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5%;
+
+    }
+
+    #d_icon {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    /* ----------- hello with pic part --------------*/
+    #hellow_section {
+        /* border: 1px solid purple; */
+        width: 100%;
+        height: 450px;
+    }
+
+    #main_Grid {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        /* border: 1px solid purple; */
+        padding: 10px 5%;
+
+        display: grid;
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 100%;
+    }
+
+    #right_top_img {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        object-fit: fill;
+        /* border: 1px solid green; */
+    }
+
+    #left_bottom_text {
+        width: 100%;
+        height: 100%;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        /* border: 1px solid red; */
+    }
+
+    #img_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #upper_text {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .text_thin_black {
+        font-weight: 300;
+        font-size: 200%;
+    }
+
+    .sp {
+        margin-left: 5px;
+    }
+
+    .text_black {
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    .text_white_border_black {
+        font-size: 200%;
+        color: white;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black;
+        line-height: 16px;
+        font-weight: 900;
+    }
+
+    #middle_text {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        /* border: 1px solid aqua; */
+
+    }
+
+    #parag_ {
+
+        max-width: 310px;
+        font-size: 80%;
+        word-wrap: break-word;
+        /* border: 1px solid blue; */
+    }
+
+    .lower_text {
+        width: 100%;
+        height: auto;
+    }
+
+    .small_icons_box {
+        /* flex */
+        /* sp space */
+        font-size: 100%;
+        border: 2px solid black;
+        padding: 1%;
+    }
+
+    /* ----------------skills-------------- */
+    #skills_section {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #sh {
+        /* bt applyed */
+    }
+
+    #skills_section {
+        /* boot strap */
+    }
+
+    #skills {
+        width: 70%;
+        margin: 2% auto;
+    }
+
+    .skills_icons {
+        font-size: 120%;
+        font-weight: 700;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    .skills_icons:hover {
+        font-size: 120%;
+        font-weight: 700;
+        border: 2px solid #404040;
+        background-color: #404040;
+        color: white;
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    /* ------My academic journey and Internship --------  */
+
+    #AJI {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 10px 5%;
+    }
+
+    .text_thin_white {
+        font-weight: 300;
+        font-size: 200%;
+    }
+
+    .text_white {
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    #aji_text {
+        /* display: block; */
+        /* text-align: center; */
+        width: 100%;
+        height: auto;
+
+    }
+
+    .toggle_Card {
+        max-width: 700px;
+        /* max-width: 40%; */
+        height: auto;
+        border: 2px solid #404040;
+        border-radius: 10px;
+        padding: 1%;
+        margin: 2% auto;
+
+    }
+
+    .toggleContent {
+        display: none;
+    }
+
+    /* ----------------- work----------------- */
+    #work {
+        width: 100%;
+        height: auto;
+    }
+
+    .Experience_card {
+        max-width: 700px;
+        height: auto;
+        border: 2px solid #404040;
+        border-radius: 10px;
+        padding: 1%;
+        margin: 2% auto;
+    }
+
+    /*--------------about me ---------- */
+    #about_me_section {
+        width: 100%;
+        height: auto;
+        padding: 10px 5%;
+
+    }
+    .about_me_cont{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+
+    }
+    #about_me_img{
+        width: auto;
+        height: 250px;
+    }
+    .white_box_with_black_border{
+        border: 1px solid black;
+        /* display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2; */
+
+
+    }
+    .about_right_cont{
+        /* display: grid;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; */
+    }
+
+    /* ------------projects----------- */
+    #projects_section{
+        width: 100%;
+        height: auto;
+        padding: 10px 5%;
+        background-color: black;
+        color: white;
+    }
+    /* main one */
+    .project_Container_left{
+        border: 1px solid red;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 200px;
+        gap: 10px;
+        
+    }
+    .pro_left_side_img{
+        max-width: 320px;
+        max-height: 195px;
+        border-radius: 20px;
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        object-fit: contain;
+    }
+    .pro_right_side_txt{
+        display: grid;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+
+    /* reverse one */
+    .project_Container_right{
+        border: 1px solid red;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 200px;
+        gap: 10px;
+    }
+    .pro_right_side_img{
+        max-width: 320px;
+        max-height: 195px;
+        border-radius: 20px;
+        display: grid;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        object-fit: contain;
+    }
+    .pro_left_side_txt{
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        
+    }
+
+    .pro_img_size{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    /* -----let Tslk for some thing special ----*/
+    #contact_me_section{
+        width: 100%;
+        height: auto;
+        padding: 10px 5%;
+    }
+    /* ----------footer_section---------- */
+    #footer_section{
+        width: 100%;
+        height: auto;
+        padding: 10px 5%;
+        background-color: white;
+        color: black;
+    }
+}
