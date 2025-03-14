@@ -298,15 +298,19 @@
         background-color: black;
         color: white;
     }
+    #project_title_span{
+        margin-bottom: 1%;
+    }
     /* main one */
     .project_Container_left{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 200px;
-        gap: 10px;
+        gap: 20px;
+        margin: 30px 5px;
         
     }
     .pro_left_side_img{
@@ -327,13 +331,14 @@
 
     /* reverse one */
     .project_Container_right{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 200px;
-        gap: 10px;
+        gap: 20px;
+        margin: 30px 5px;
     }
     .pro_right_side_img{
         max-width: 320px;
@@ -356,6 +361,44 @@
         height: 100%;
         border-radius: 20px;
     }
+    .pro_title_00{
+        font-weight: 900;
+        font-size: 150%;
+    }
+    .pro_name{
+        font-weight: 900;
+        font-size: 130%;
+    }
+    .pro_graph{
+        max-width: 400px;
+        font-size: 80%;
+        opacity: 0.8;
+    }
+    .pro_links{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pro_ghub_link{
+        text-decoration: none;
+        color: black;
+        border: 1px solid white;
+        padding: 3px 5px;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: 500;
+
+    }
+    .pro_hosted_link{
+        text-decoration: none;
+        color: black;
+        border: 1px solid white;
+        padding: 3px 5px;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: 500;
+
+    }
 
     /* -----let Tslk for some thing special ----*/
     #contact_me_section{
@@ -370,5 +413,21 @@
         padding: 10px 5%;
         background-color: white;
         color: black;
+    }
+    .footer_pag{
+        font-size: 80%;
+        opacity: 0.8;
+
+    }
+    #email{
+        font-size: 100% !important;
+        font-weight: 700; 
+    }
+    #phone{
+        font-size: 100% !important;
+        font-weight: 700; 
+    }
+    .footer_link{
+        
     }
 }
