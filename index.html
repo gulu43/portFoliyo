@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulamnabi's Pprtfolio</title>
+    <title>Gulamnabi's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_tab.css">
+    <link rel="stylesheet" href="style_mobile.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -24,7 +26,7 @@
                 <span class="material-symbols-outlined ">person_4</span><span class="nac_link">Gulamnabi</span>
             </div>
 
-            <div class="tool_mid_div d-flex justify-content-between align-items-center">
+            <div id="tool_mid_div_id" class="tool_mid_div d-flex justify-content-between align-items-center">
                 <span class="nac_link">About Me</span>
                 <span class="nac_link">Skills</span>
                 <span class="nac_link">Project</span>
@@ -51,7 +53,7 @@
             <div id="left_bottom_text">
                 <div id="upper_text">
                     <span class="d-flex align-items-center">
-                        <div class="text_thin_black">Hello i'am</div><div  class="sp text_black"> Gulamnabi.</div>
+                        <div id="helow_p1" class="text_thin_black">Hello i'am</div><div  class="sp text_black"> Gulamnabi.</div>
                     </span>
                     <span class="d-flex align-items-center">
                         <div class="text_black">Frontend</div><div  class="sp text_white_border_black">Developer</div>
@@ -65,7 +67,7 @@
                         I'm a final-year BCA student at Parul University, specializing in FSW and focusing on Frontend Development. Through AccioJob, I'm learning and building web applications to launch my career. Proficient in HTML, CSS, JavaScript, and React, I strive to create intuitive user experiences. Check out my Resume and Certifications for more details.</div>
                 </div>
                 <div id="lower_text" class="d-flex">
-                    <div class=" sp small_icons_box">Linkin</div>
+                    <div class=" sp small_icons_box">LinkedIn</div>
                     <div class=" sp small_icons_box">Github</div>
                     <div class=" sp small_icons_box">Gmail</div>
                 </div>
@@ -76,9 +78,12 @@
     </section>
 
     <!-- My Skills -->
-    <section id="skills_section" class="d-flex flex-column justify-content-center align-items-center">
+    <section id="skills_section" class="">
 
-        <span  id="sh" class="d-flex justify-content-center align-items-center"><div class=" text_thin_black">My</div><div class=" sp text_black">Skills</div></span>
+        <span  id="sh" class="d-flex justify-content-center align-items-center">
+            <div class=" text_thin_black">My</div>
+            <div class=" sp text_black">Skills</div>
+        </span>
         
         <div id="skills" class=" d-flex justify-content-around align-items-center ">
             <div class="skills_icons">HTML</div>
@@ -150,11 +155,17 @@
      <section id="about_me_section">
         <div class="about_me_cont">
             <div class="white_box_with_black_border">
-                <img id="about_me_img" src="./imgs/photo.jpg" alt="me">
+                <img id="about_me_img" src="./imgs/me.png" alt="me">
             </div>
             <div class="about_right_cont ">
                 <span class="d-flex justify-content-center align-items-center"><div class="text_thin_black">About</div><div class=" sp text_black">Me</div></span>
-                <div class="paragraph"> dummp data </div>
+                <div class="about_me_pra "> 
+                    Hi! I'm <strong> Gulamnabi Kagathala</strong>, a <strong>Full Stack Web Developer </strong>currently pursuing a <strong>BCA at Parul University</strong>. I have experience in <strong>JavaScript, HTML, CSS, Java, and MySQL </strong> and am currently improving my skills through a <strong>MERN internship at AccioJob.</strong><br><br>
+
+                    I enjoy creating interactive and efficient web applications. Some of my notable projects include a <strong>Google Sheets clone, Blinkit UI clone, Spotify UI clone, a library management system</strong> using Java Swing & JDBC, and a blog page. You can explore my work on <a href="https://github.com/gulu43" style="text-decoration: none;">GitHub</a>.<br><br>
+                    
+                    Beyond coding, I have a passion for drawing and continuously exploring new technologies.    <br>
+                </div>
             </div>
         </div>
      </section>
@@ -244,7 +255,7 @@
 
                 <div class="footer_right_div d-flex flex-column justify-content-center align-items-center">
                     <div>© 2025 Gulamnabi</div>
-                    <div class="d-flex justify-content-center align-items-center" >Connect: <a class=" sp footer_link" href="https://github.com/gulu43">GitHub</a><a class="sp footer_link" href="https://www.linkedin.com/in/gulamnabi-kagathala-259b90256/">Linked-In</a> 
+                    <div class="d-flex justify-content-center align-items-center" >Connect: <a class=" sp footer_link" href="https://github.com/gulu43">GitHub</a><a class="sp footer_link" href="https://www.linkedin.com/in/gulamnabi-kagathala-259b90256/">LinkedIn</a> 
                  </div>
                 </div>
 
