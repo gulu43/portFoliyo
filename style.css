@@ -230,6 +230,8 @@
         /* text-align: center; */
         width: 100%;
         height: auto;
+        margin-top: 1%;
+        margin-bottom: 4%;
 
     }
 
@@ -252,6 +254,8 @@
     #work {
         width: 100%;
         height: auto;
+        margin-top: 3%;
+        margin-bottom: 4%;
     }
 
     .Experience_card {
@@ -309,6 +313,9 @@
         color: white;
     }
     #project_title_span{
+        /* padding: 5% 1%; */
+        padding-top: 2%;
+        /* padding-bottom: 5%; */
         margin-bottom: 1%;
     }
     /* main one */
@@ -319,12 +326,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 200px;
-        gap: 20px;
-        margin: 30px 5px;
+        gap: 35px;
+        margin: 50px 5px;
         
     }
     .pro_left_side_img{
-        max-width: 320px;
+        max-width: 357px;
         max-height: 195px;
         border-radius: 20px;
         display: grid;
@@ -347,11 +354,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 200px;
-        gap: 20px;
-        margin: 30px 5px;
+        gap: 35px;
+        margin: 50px 5px;
     }
     .pro_right_side_img{
-        max-width: 320px;
+        max-width: 357px;
         max-height: 195px;
         border-radius: 20px;
         display: grid;
@@ -363,6 +370,7 @@
         display: grid;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        justify-items: end;
         
     }
 
@@ -374,10 +382,12 @@
     .pro_title_00{
         font-weight: 900;
         font-size: 150%;
+        display: flex;
     }
     .pro_name{
         font-weight: 900;
         font-size: 130%;
+        display: flex;
     }
     .pro_graph{
         max-width: 400px;
@@ -388,6 +398,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        width: 100%;
     }
     .pro_ghub_link{
         text-decoration: none;
@@ -397,6 +408,8 @@
         background-color: white;
         border-radius: 10px;
         font-weight: 500;
+        width: 40%;
+        text-align: center;
 
     }
     .pro_hosted_link{
@@ -407,17 +420,22 @@
         background-color: white;
         border-radius: 10px;
         font-weight: 500;
+        width: 40%;
+        text-align: center;
 
     }
 
     /* -----let Tslk for some thing special ----*/
     #contact_me_section{
+        background-color: white;
         width: 100%;
         height: auto;
-        padding: 10px 5%;
+        padding: 8% 5%;
+        /* border-bottom: 1px solid black; */
     }
     /* ----------footer_section---------- */
     #footer_section{
+        border-top: 1px solid black;
         width: 100%;
         height: auto;
         padding: 10px 5%;
@@ -438,6 +456,12 @@
         font-weight: 700; 
     }
     .footer_link{
-        
+        color: black;
+        /* text-decoration: dotted; */
+    }
+    .spM{
+        padding: 0px 12px;
+        /* margin-left: 10%; */
+        /* padding: 10%; */
     }
 }
