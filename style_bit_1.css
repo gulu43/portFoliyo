@@ -373,6 +373,7 @@
         display: grid;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+        justify-items: center;
     }
 
 
@@ -401,7 +402,7 @@
         display: grid;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
-        
+        justify-items: center;
     }
 
     .pro_img_size{
@@ -434,7 +435,10 @@
         padding: 3px 5px;
         background-color: white;
         border-radius: 10px;
+        width: 120px;
+        text-align: center;
         font-weight: 500;
+        margin-right: 30px;
 
     }
     .pro_hosted_link{
@@ -444,6 +448,8 @@
         padding: 3px 5px;
         background-color: white;
         border-radius: 10px;
+        width: 120px;
+        text-align: center;
         font-weight: 500;
 
     }
@@ -476,6 +482,12 @@
         font-weight: 700; 
     }
     .footer_link{
-        /* ok */
+        color: black;
+        /* text-decoration: dotted; */
+    }
+    .spM{
+        padding: 0px 12px;
+        /* margin-left: 10%; */
+        /* padding: 10%; */
     }
 }
