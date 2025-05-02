@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-/* --------------------for leptop ------------------*/
+/* --------------------for phone ------------------*/
 @media screen and (min-width:310px) and (max-width:425px) {
     body {
         width: 100%;

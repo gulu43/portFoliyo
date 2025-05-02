@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-/* --------------------for leptop ------------------*/
+/* --------------------for leptop b ------------------*/
 @media screen and (min-width:1024px) {
     body {
         width: 100%;
@@ -105,7 +105,7 @@
 
     #img_1 {
         width: 100%;
-        height: auto;
+        height: 85%;
     }
 
     #upper_text {
@@ -115,7 +115,7 @@
     }
 
     .text_thin_black {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 200%;
     }
 

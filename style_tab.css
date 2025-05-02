@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-/* --------------------for leptop ------------------*/
+/* --------------------for tab ------------------*/
 @media screen and (min-width:768px) and (max-width:1024px) {
     body {
         width: 100%;
